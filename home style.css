@@ -1,0 +1,79 @@
+.topbar ul li
+{
+display:block;
+
+}
+
+.topbar ul li a
+{  
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+	
+ 
+}
+.topbar
+{
+	
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 0px;
+
+}
+
+.topbar
+{
+padding-top:20px;
+
+}
+
+h1
+{
+background-color: #66ccff;
+}
+
+.topbar ul li a:hover,a:active
+{
+background-color: #555;
+font-size: 150%;
+border-radius:15px 35px;
+}
+
+.area2
+{
+position:absolute;left:500px;top:50px;
+}
+
+.welcome
+{
+position:absolute;top:400px;left:450px;
+font-family: "Sofia", sans-serif;
+font-size: 30px;
+color:#003366;
+text-shadow: 4px 4px 4px #ababab;
+width:50%;
+
+}
+
+
+body
+{
+background:url(desk-office.jpg);
+margin:0;
+padding:0;
+background-size:cover;
+background-position:center;
+}
+h2
+{
+	color:white;
+	font-family: "Sofia", sans-serif;
+}

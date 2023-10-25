@@ -1,0 +1,72 @@
+body 
+{
+  margin:0;
+  padding:0;
+  background:;
+  background-size:cover;
+  background-position:center;
+  background:url("Steam Community __ Guide __ Best Steam Profile Backgrounds.jfif");
+  
+}
+.CreatenewAccount
+{
+  width:420px;
+  height:780px; 
+  background:white;
+  color:black;
+  position:absolute;
+  top:10%;
+  bottom:200px;
+  right:400px;
+  box-sizing:border-box;
+  padding: 30px 30px;
+  border-radius:20px;
+}
+h5
+{
+  margin:10px;
+  padding:0 0 4px;
+  text-align:center;
+  font-size:28px;
+}
+.CreatenewAccount p
+{
+	margin:0;
+	padding:10px;
+	font-weight:bold;
+}
+.CreatenewAccount input
+{
+  width:100%;
+  margin-bottom:10px;
+}
+.CreatenewAccount input[type="text"],input[type="email"],input[type="password"],input[type="tel"],input[list="gender"]
+{
+  border:none;
+  border-bottom:1px solid black;
+  outline:none;
+  height:30px;
+  color:black;
+  font-size:16px;
+}
+.CreatenewAccount input[type="checkbox"]
+{
+	height:15px;
+	width:15px;
+}
+.CreatenewAccount input[type="submit"]
+{
+  border:none;
+  outline:none;
+  height:40px;
+  background:black;
+  color:#fff;
+  font-size:18px;
+  border-radius:20px;
+  
+}
+.CreatenewAccount input[type="submit"]:hover
+{
+  background-color: #555;
+  box-shadow: 0 0 10px 5px rgb(0, 140, 186, 0.5);
+}

@@ -1,0 +1,127 @@
+.space ul li
+{
+	display:block;
+}
+.space
+{
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 0px;
+}
+.space ul li a 
+{   text-decoration: none;
+	color:white;
+	display: block;
+    font-size: 20px;
+    padding: 20px;
+  
+}
+.space ul
+{
+	
+	
+	height:585px;
+	width: 200px;
+	border-radius:0 20px 20px 0;
+	
+}
+
+.space ul li a:hover,a:active
+{
+    background-color: #555;
+    font-size: 150%;
+    border-radius:15px 35px;
+}
+.space1
+{
+	position:absolute; 
+	width:400px;
+    height:550px;
+    top:47%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 10px 30px;
+	border:3px solid black;
+	border-radius:20px;
+}
+h2
+{
+	margin:0;
+    padding:115px 0 20px;
+    text-align:center;
+    font-size:30px;
+}
+.propic
+{
+	width:100px;
+    height:100px;
+    position: absolute;
+    left:150px;
+	top:20px;
+}
+.space1 p1,p3,p5,p7
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	
+}
+.space1 p2,p4,p6,p8
+{
+	margin-left:20px;
+}
+table, th, td {
+    border: 1px solid black;
+	height:60px;
+	width:120px;
+	border-color:transparent;
+}
+th, td 
+{
+	font-size:30px;
+}
+
+body
+{
+background:url("top-view-desk-with-coffee-plant-laptop (1).jpg");
+margin:0;
+padding:0;
+background-size:10 10;
+background-position:center;
+}
+hr.new
+{
+	border: 1px solid black;
+}
+.logout
+{
+	position:absolute;
+	top:40px;
+	right:20px;
+}
+.logout input
+{
+	background:black;
+	color:white;
+	padding:10px 20px;
+	border-radius:20px;
+}
+.logout input[type="submit"]:hover
+{
+  background-color: #555;
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+
+
+
+
+
+
+

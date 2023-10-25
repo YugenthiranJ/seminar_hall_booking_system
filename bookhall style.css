@@ -1,0 +1,147 @@
+.space ul li
+{
+	display:block;
+	
+	
+}
+.space
+{
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 0px;
+}
+.space ul li a 
+{   text-decoration: none;
+	color: white;
+	display: block;
+    font-size: 20px;
+    padding: 20px;
+  
+}
+.space ul
+{
+	
+	
+	height:580px;
+	width: 200px;
+	border-radius:0 20px 20px 0;
+	
+}
+
+.space ul li a:hover,a:active
+{
+   background-color: #555;
+    font-size: 150%;
+    border-radius:15px 35px;
+}
+.space1 ul li
+{
+    display:block;
+}
+.img1 
+{
+	position:absolute;
+	top:45px;
+	left:300px;
+	height:200px; width:250px;
+	border:1px solid black;
+    
+}
+.img2
+{
+	position:absolute;
+	top:45px;
+	left:600px;
+	height:200px; width:250px;
+	border:1px solid black;
+}
+.img3
+{
+	position:absolute;
+	top:45px;
+	left:900px;
+	height:200px; width:250px;
+	border:1px solid black;
+	
+}
+.img4
+{
+	position:absolute;
+	top:335px;
+	left:300px;
+	height:200px; width:250px;
+	border:1px solid black;
+}
+.img5
+{
+	position:absolute;
+	top:335px;
+	left:600px;
+	height:200px; width:250px;
+	border:1px solid black;
+}
+.img6
+{
+	position:absolute;
+	top:335px;
+	left:900px;height:200px; width:250px;
+	border:1px solid black;
+}
+
+.container1
+{
+	text-align: center;
+    padding: 1px 20px;
+	font-weight:bold;
+	border:1px solid black;
+	font-size:20px;
+}
+
+
+.img1:hover ,:active
+{
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+.img2:hover ,:active
+{
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+.img3:hover ,:active
+{
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+.img4:hover ,:active
+{
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+.img5:hover ,:active
+{
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+.img6:hover ,:active
+{
+  box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+}
+body
+{
+background:url("Laptop Wallpapers_ Free HD Download [500+ HQ] _ Unsplash.png");
+margin:0;
+padding:0;
+background-size:cover;
+background-position:center;
+}
+
+
+
+
+
+
+
+
+

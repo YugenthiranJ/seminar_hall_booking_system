@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="cna.css">
+<title> Seminar hall booking </title>
+</head>
+<body>
+<div class="CreatenewAccount">
+<h5>Create new Account</h5>
+<form action="login.html" action="connect.php" method="POST"> 
+<p>Frist Name </p>
+<input type="text" placeholder="Enter firstname" id="name" name="fname" width="75" height="75" required ><br>
+<p>Last Name </p>
+<input type="text" placeholder="Enter lastname" id="name" name="lname" width="75" height="75" required ><br>
+<p>Email</p>
+<input type="email" placeholder="Enter Email" id="email" name="email" width="75" height="75" required ><br>
+<p>Phone</p>
+<input type="tel" id="phone" name="phone" placeholder="012-345-6789" required><br>
+<p>Gender</p>
+<input list="gender" name="gender" placeholder="Enter Your Gender">
+  <datalist id="gender">
+    <option value="Male">
+    <option value="Female">
+    <option value="Others">
+  </datalist> <br>
+  
+  <p>Password</p>
+  <input type="password" placeholder="Enter Your Password" value="" maxlength="8" id="password"><br>
+  <p>Confirm password</p>
+  <input type="password" placeholder="Confirm Your Password " value="" maxlength="8" id="confirm_password"><br>
+ <script>
+  var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm_password");
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script><br>
+<input type="checkbox" onclick="myFunction()">Show Password<br>
+<script>
+function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script><br>
+  <input type="submit" name="" class="pure-button pure-button-primary" value="Sign in">
+</form>
+</div>
+</body>
+</html>
